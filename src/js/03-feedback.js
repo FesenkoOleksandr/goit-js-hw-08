@@ -6,7 +6,7 @@ let localData = {};
 function formSubmit(event) {
   event.preventDefault();
   if (inputEl[0].value.trim() === '' || inputEl[1].value.trim() === '' ){
-    return alert("Error! Будь ласка, заповніть всі поля");
+    return alert("Error! Будь ласка, нагайно заповніть всі поля");
   }
   console.log(localData);
   localStorage.removeItem(storageItem);
